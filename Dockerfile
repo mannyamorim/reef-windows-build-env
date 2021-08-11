@@ -1,7 +1,7 @@
 FROM debian:bullseye
 
 # Install packages needed for MXE
-RUN apt-get update && apt-get upgrade && pt-get install -y \
+RUN apt-get update && apt-get upgrade -y && apt-get install -y \
 	autoconf \
 	automake \
 	autopoint \
