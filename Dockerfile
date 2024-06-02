@@ -28,6 +28,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
 	patch \
 	perl \
 	python3 \
+    python3-mako \
 	ruby \
 	sed \
 	unzip \
